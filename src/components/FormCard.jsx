@@ -37,6 +37,7 @@ const FormCard = ({ title, content }) => {
         textAlign: "center",
         fontSize: "1.1rem",
         fontWeight: "bold",
+        color:"white"
     }
 
     return (
