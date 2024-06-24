@@ -1,0 +1,201 @@
+.container{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(166, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-head{
+    width: auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 100%;
+    flex-shrink: 0;
+    margin-left: 20px;
+    color: white;
+}
+.head h5{
+    font-size: 1rem;
+}
+.nav-logo{
+    width: fit-content;
+}
+.nav-logo img{
+    width: 80px;
+    border-radius: 50%;
+}
+.nav{
+    width: 100%;
+    flex-shrink: 2;
+    max-width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav p{
+    width: 100px;
+    text-align: end;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.4s;
+}
+.nav p a:hover{
+    color: rgba(234, 251, 0, 0.808);
+}
+.nav p a:active{
+    color: white;
+}
+.login-signup{
+    width: 200px;
+    display: flex;
+    flex-shrink: 0;
+    margin-right: 5px;
+    justify-content: space-evenly;
+}
+.login-signup button{
+    padding: 9px 18px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    transition: 0.4s;
+}
+.login{
+    background-color: rgb(206, 206, 206);
+}
+.login:hover{
+    cursor: pointer;
+    background-color: rgb(168, 165, 165);
+    border: 1px solid black;
+}
+.login:active{
+    cursor: pointer;
+    background-color: rgb(199, 196, 196);
+}
+.signup{
+    background-color: rgba(11, 11, 11, 0.808);
+}
+.login-signup .signup{
+    color: white;
+}
+.signup:hover{
+    cursor: pointer;
+    background-color: rgb(18, 16, 16);
+    border: 1px solid white;
+}
+.signup:active{
+    background-color: rgb(80, 80, 80);
+}
+#side-nav-btn{
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 40px;
+    height: 45px;
+    background-color: #6f6d6d;
+    border-radius: 0 12px 12px 0;
+    border: none;
+    box-shadow: 0px 1px 2px 1px #3c3c3c;
+    display: none;
+    transition: 0.3s;
+}
+#side-nav-btn:hover{
+    cursor: pointer;
+    background-color: #635b5b;
+}
+#side-nav-btn:active{
+    background-color: #939393;
+}
+#side-nav-btn img{
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+
+@media only screen and (max-width: 950px) {
+    .nav{
+        display: none;
+    }
+    #side-nav-btn{
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 660px) {
+    .container{
+        height: 90px;
+    }
+    .head h2{
+        font-size: 1.15rem;
+    }
+    .head h5{
+        font-size: 0.75rem;
+    }
+    .nav-logo img{
+        width: 60px;
+    }
+    .logo-head{
+        margin-left: 10px;
+    }
+    .login-signup{
+        width: 140px;
+        margin-right: 0;
+    }
+    .login-signup button{
+        padding: 9px 12px;
+        font-size: 0.75rem;
+    }
+    #side-nav-btn{
+        top: 90px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .container{
+        height: 70px;
+    }
+    .head h2{
+        font-size: 1rem;
+    }
+    .head h5{
+        font-size: 0.55rem;
+    }
+    .logo-head{
+        gap: 5px;
+    }
+    .nav-logo img{
+        width: 45px;
+    }
+    .logo-head{
+        margin-left: 7px;
+    }
+    .login-signup{
+        width: 120px;
+        margin-right: 0;
+    }
+    .login-signup button{
+        padding: 8px 11px;
+        font-size: 0.6rem;
+    }
+    #side-nav-btn{
+        width: 35px;
+        height: 40px;
+        top: 70px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .head h2{
+        font-size: 0.8rem;
+    }
+}

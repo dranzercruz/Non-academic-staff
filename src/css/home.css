@@ -1,0 +1,43 @@
+.home{
+    margin: 0 100px;
+}
+
+.home-img-slider{
+    display: flex;
+    overflow-x: scroll;
+    height: 450px;
+}
+.home-container{
+    height: 700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        'main aside1'
+        'main aside2';
+    gap: 20px;
+    padding: 0 30px;
+}
+.main{
+    grid-area: main;
+    background-color: #ff7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main div{
+    display: flex;
+    padding: 20px;
+}
+.side1{
+    grid-area: aside1;
+    background-color: #f7f;
+}
+.side2{
+    grid-area: aside2;
+    background-color: #f93;
+}
+.newsFeed{
+    padding: 20px;
+}

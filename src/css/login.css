@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4efef;
+    /* background: url(https://i.pinimg.com/originals/e4/a9/4b/e4a94b900e1fb9ed7420ba21a5243bb5.jpg); */
+    /* background: url(https://wallpapercave.com/wp/wp11704432.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.login-container{
+    border: 1px solid #9b9999;
+    width: 60%;
+    max-width: 400px;
+    min-width: 280px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 12px 1px #b7b5b5;
+    /* background-color: transparent; */
+    background-color: #cecbcb6f;
+    backdrop-filter: blur(3px);
+}
+
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+
+.logo img{
+    border-radius: 50%;
+    width: 120px;
+}
+
+.login-container h1{
+    text-align: center;
+    margin: 0px 0px 10;
+    text-shadow: 1px 1px 5px rgb(106, 104, 104);
+    font-size: 2.5rem;
+    /* color: #ffffff; */
+}
+
+input{
+    width: 100%;
+    padding: 8px 5px;
+    margin: 5px 0 10px;
+    border-radius: 5px;
+    border: 1px solid #b6b6b6;
+}
+
+#email:hover, #password:hover{
+    outline-color: #bf2d2db4;
+    outline-width: 0.1px;
+}
+
+#email:focus, #password:focus{
+    outline-color: rgba(249, 0, 0, 0.704);
+    outline-width: 0.1px;
+}
+
+label{
+    margin-bottom: 5px; 
+    font-size: 1.1rem;
+}
+
+.login-btn input{
+    background-color: rgb(204, 20, 20);
+    color: white;
+    font-size: 1rem;
+    border: 1px solid;
+}
+
+.login-btn input:hover{
+    cursor: pointer;
+    background-color: rgb(176, 7, 7);
+}
+
+.login-btn input:ac{
+    background-color: rgb(204, 20, 20);
+}
+
+.signup-opt{
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.signup-opt p{
+    color: rgb(204, 20, 20);
+    font-size: 01rem;
+}
+
+.signup-opt input{
+    background-color: rgb(146, 146, 146);
+    color: white;
+    border: 1px solid;
+}
+
+.signup-opt input:hover{
+    cursor: pointer;
+    background-color: rgb(108, 108, 108);
+}
+
+.signup-opt input:active{
+    background-color: rgb(146, 146, 146);
+}
+
+.others{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.others a{
+    font-size: 0.8rem;
+    color: blue;
+}
+
+.others p{
+    font-size: 0.7rem;
+    width: 80%;
+    margin: auto;
+    min-width: 250px;
+    color: #4d4c4c;
+    margin-top: 5px;
+}
