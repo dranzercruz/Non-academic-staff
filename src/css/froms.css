@@ -1,0 +1,17 @@
+.form-content{
+    margin: 0 100px;
+}
+
+.form-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.form-attributes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+
+}

@@ -19,7 +19,7 @@
 }
 
 .login-container{
-    border: 1px solid #9b9999;
+    border: 1px solid #fefefe00;
     width: 60%;
     max-width: 400px;
     min-width: 280px;
@@ -27,7 +27,7 @@
     border-radius: 12px;
     box-shadow: 1px 1px 12px 1px #b7b5b5;
     /* background-color: transparent; */
-    background-color: #cecbcb6f;
+    background-color: #fffafa1f;
     backdrop-filter: blur(3px);
 }
 
@@ -36,7 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     
 }
 
@@ -47,8 +47,9 @@
 
 .login-container h1{
     text-align: center;
-    margin: 0px 0px 10;
-    text-shadow: 1px 1px 5px rgb(106, 104, 104);
+    margin: 0px 0px 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 8px rgb(106, 104, 104);
     font-size: 2.5rem;
     /* color: #ffffff; */
 }
@@ -73,7 +74,8 @@ input{
 
 label{
     margin-bottom: 5px; 
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .login-btn input{
