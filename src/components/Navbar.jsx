@@ -15,10 +15,12 @@ const Navbar = () => {
 
         <div className="logo-head">
           <div className="nav-logo">
-            <img
-              src="https://w1.pngwing.com/pngs/659/960/png-transparent-gold-badge-university-of-ceylon-university-of-sri-lanka-higher-education-college-faculty-university-of-peradeniya-logo-thumbnail.png"
-              alt="Uni-logo"
-            />
+            <a href="#">
+              <img
+                src="https://w1.pngwing.com/pngs/659/960/png-transparent-gold-badge-university-of-ceylon-university-of-sri-lanka-higher-education-college-faculty-university-of-peradeniya-logo-thumbnail.png"
+                alt="Uni-logo"
+              />
+            </a>
           </div>
           <div className="head">
             <h2>Non Academic Staffs</h2>
