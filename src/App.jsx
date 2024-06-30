@@ -1,4 +1,4 @@
-import Home from "./components/Profile"
+import Home from "./components/Hod"
 
 function App() {
 

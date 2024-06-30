@@ -30,43 +30,43 @@ const Profile = () => {
                 <div className='profile-detail-container'>
                     <div className='profile-namebox'>
                         <label htmlFor="firstname">First Name Change
-                            <input type="text" name="firstname" id="firstname" required placeholder='' />
+                            <input type="text" name="firstname" id="firstname" required placeholder='Eniyavan' />
                         </label>
                         <label htmlFor="lastname">Last Name Change
-                            <input type="text" name="lastname" id="lastname" required placeholder='' />
+                            <input type="text" name="lastname" id="lastname" required placeholder='Thirumaran' />
                         </label>
                     </div>
 
                     <div className='profile-emailbox'>
                         <label htmlFor="emailAddress">Email Address
-                            <input type="text" name="emailAddress" id="emailAddress" required placeholder='' />
+                            <input type="text" name="emailAddress" id="emailAddress" required placeholder='***' />
                         </label>
                     </div>
 
                     <div className='profile-phoneNumber'>
                         <label htmlFor="phoneNumber">Phone Number
-                            <input type="number" name="phoneNumber" id="phoneNumber" required placeholder='' />
+                            <input type="number" name="phoneNumber" id="phoneNumber" required placeholder='077******' />
                         </label>
                     </div>
 
                     <div className='profile-streetAddress'>
                         <label htmlFor="streetAddress">Street Address
-                            <input type="text" name="streetAddress" id="streetAddress" required placeholder='' />
+                            <input type="text" name="streetAddress" id="streetAddress" required placeholder='215' />
                         </label>
                     </div>
 
                     <div className='profile-city'>
                         <label htmlFor="zipCode">Zip Code Update
-                            <input type="number" name="zipCode" id="zipCode" required placeholder='' />
+                            <input type="number" name="zipCode" id="zipCode" required placeholder='*******' />
                         </label>
                         <label htmlFor="city">City Change
-                            <input type="text" name="city" id="city" required placeholder='' />
+                            <input type="text" name="city" id="city" required placeholder='Jaffna' />
                         </label>
                     </div>
 
                     <div className='profile-state'>
                         <label htmlFor="state_update">State Update
-                            <input type="text" name="state_update" id="state_update" required placeholder='' />
+                            <input type="text" name="state_update" id="state_update" required placeholder='****' />
                         </label>
                         <label htmlFor="country_update">Country Update
                             <input type="text" name="country_update" id="country_update" required placeholder='' />

@@ -17,7 +17,7 @@ const FormCard = ({ title, content }) => {
 
     const formHeadingStyle = {
         padding: "10px",
-        fontSize: "1.8rem",
+        fontSize: "1rem",
         fontWeight: "bold",
     }
 

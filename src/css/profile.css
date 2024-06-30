@@ -15,9 +15,9 @@
 }
 
 .profile-heading h3 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-top: 20px;
+    margin: 20px 0 0 10px;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 8px rgb(106, 104, 104);
 }
 
 .profile-attributes {
@@ -84,7 +84,7 @@
     height: 200px;
     border-radius: 100px;
     margin: 15px 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.868);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.868);
     
 
 }
@@ -109,7 +109,7 @@
     margin-bottom: 15px; 
 }
 
-label {
+.profile-detail-container label {
     display: flex;
     flex-direction: column; 
     width: 48%; 
@@ -119,16 +119,16 @@ label {
     width: 100%; 
 }
 
-input {
+.profile-detail-container input {
     padding: 8px 5px;
     margin: 5px 0 10px;
     border-radius: 5px;
     border: 1px solid #b6b6b6;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.418);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.418);
     width: 100%; 
 }
 
-input[type="button"] {
+.profile-detail-container input[type="button"] {
     width: 100%; 
     color: white;
     background-color: rgb(67, 213, 67);
@@ -138,7 +138,7 @@ input[type="button"] {
     align-self: center; 
 }
 
-input[type="button"]:hover {
+.profile-detail-container input[type="button"]:hover {
     background-color: rgb(58, 192, 58);
 }
 
